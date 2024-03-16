@@ -1,0 +1,35 @@
+.about{
+    padding-top: 83px;
+    background-color: #1a202c;
+    color: aliceblue;
+}
+
+.Experience{
+    font-family: 'League Spartan', sans-serif;
+    text-align: justify;
+}
+.section-headding{
+    text-align: justify;
+
+}
+.card{
+    background-color: rgb(253, 253, 217);
+}
+.companyName{
+font-size: 25px;
+/* border: 2px solid goldenrod; */
+/* margin-right: 90px;
+margin-left: 40px;
+margin-top: 20px; */
+border-radius: 20px;
+
+}
+
+
+@media (max-width: 576.98px) {
+  
+    .container{
+        padding: 40px!important;
+    }
+    
+  }

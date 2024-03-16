@@ -1,0 +1,16 @@
+.contact{
+    padding-top: 64px;
+    background-color: #212529;
+    padding-bottom: 30px;
+    color: white;
+  }
+  .form-control{
+    height: 68px;
+  }
+  .submit-btn{
+    background-color: #ed143d;
+    color: white;
+    box-shadow: #f2f4f5;
+    font-size: 28px;
+    font-family:'Arial Narrow Bold', sans-serif;
+  }

@@ -1,0 +1,46 @@
+<section class="about pb-70 section-bg" id="about">
+   <div class="container">
+      <!-- Section Headding -->
+      <div class="row">
+         <div class="section-headding mb-50 text-center">
+            <h1>All <span class="text-danger">About</span> Me</h1>
+            
+         </div>
+         <div class="title-divider"></div>
+            <p class="text-justify">Hi, My self Venu Katike, I'm a Full Stack web developer with a passion 
+               for creating innovative and user-friendly web applications. 
+               My journey into this world of web development began during my graduation, 
+               and also I was a computer enthusiastic which driven me to create computer and tech related
+               blogging websites. So my websites/web application development journey was started way
+               long back.</p>
+         <div class="col-lg-8">
+            
+         </div>
+      </div>
+      <!-- Education -->
+   <div class="row">
+         <div class="Experience col-lg-12">
+            <div class="resume-title mb-40 ">
+              <h2>My <span class="text-danger">Experience</span></h2>
+            </div>
+         </div>
+    </div>
+      <div class="row align-items-center">
+        <div class="col-sm-4">
+          <img class="image-fluid w-100" src="/assets/images/man working with computer.png">
+        </div>
+       <div class="col-sm-8">
+        <div class="card mb-4" *ngFor="let experience of experiences">
+          <div class="card-body">
+              <div class="companyName">{{experience.companyName}}</div>
+              <div class="experienceFromTo">{{experience.experienceFromTo}}</div>
+              <div class="desc">{{experience.desc}}</div>
+          </div>
+          
+        </div>
+       </div>
+       
+      </div>
+        
+   </div>
+</section>

@@ -1,0 +1,40 @@
+.skills {
+    padding: 64px;
+    background-color: #1a202c;
+}
+
+.skill-card:hover {
+    background-color: #2f2f30;
+}
+.skill-card{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(27, 26, 26);
+}
+/* img {
+    height: 50px;
+    width: 120px;
+} */
+.row2{
+    justify-content: center;
+}
+
+.s {
+    background-color: rgb(27, 26, 26);
+}
+.tech{
+    font-size: 10px;
+}
+@media (max-width: 576.98px) {
+
+    img {
+        height: min-content;
+    }
+    .skill-card{
+        width: 100px;
+    }
+    .row2{
+        padding: 0!important;
+        justify-content: center;
+    }
+} 
